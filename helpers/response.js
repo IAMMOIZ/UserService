@@ -16,7 +16,7 @@ obj.data = data;
 res.json (obj);
 };
 
-formatResponse: function(errors) {
+formatResponse :  function(errors) {
 var errorResponse = []; 
 for (var i in errors) {  
 var obj = {
